@@ -1,0 +1,41 @@
+{
+  "Name": "C:",
+  "Type": 0,
+  "Children": [
+    {
+      "Name": "OfficeInstruments",
+      "Type": 0,
+      "Children": [
+        {
+          "Name": "Microsoft Word",
+          "Type": 2
+        },
+        {
+          "Name": "Microsoft Excel",
+          "Type": 2
+        }
+      ]
+    },
+    {
+      "Name": "Gaming&Multimedia",
+      "Type": 0,
+      "Children": [
+        {
+          "Name": "Games",
+          "Type": 0,
+          "Children": []
+        },
+        {
+          "Name": "Multimedia",
+          "Type": 0,
+          "Children": [
+            {
+              "Name": "MyVideo",
+              "Type": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$id": "1",
+  "Children": [
+    {
+      "$id": "2",
+      "Children": [
+        {
+          "$id": "3",
+          "Name": "Microsoft Word",
+          "Owner": {
+            "$ref": "2"
+          },
+          "Type": 2
+        },
+        {
+          "$id": "4",
+          "Name": "Microsoft Excel",
+          "Owner": {
+            "$ref": "2"
+          },
+          "Type": 2
+        }
+      ],
+      "Name": "OfficeInstruments",
+      "Owner": {
+        "$ref": "1"
+      },
+      "Type": 0
+    },
+    {
+      "$id": "5",
+      "Children": [
+        {
+          "$id": "6",
+          "Children": [],
+          "Name": "Games",
+          "Owner": {
+            "$ref": "5"
+          },
+          "Type": 0
+        },
+        {
+          "$id": "7",
+          "Children": [
+            {
+              "$id": "8",
+              "Name": "MyVideo",
+              "Owner": {
+                "$ref": "7"
+              },
+              "Type": 4
+            }
+          ],
+          "Name": "Multimedia",
+          "Owner": {
+            "$ref": "5"
+          },
+          "Type": 0
+        }
+      ],
+      "Name": "Gaming&Multimedia",
+      "Owner": {
+        "$ref": "1"
+      },
+      "Type": 0
+    }
+  ],
+  "Name": "C:",
+  "Owner": null,
+  "Type": 0
+}

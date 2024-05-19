@@ -1,0 +1,16 @@
+﻿<Window x:Class="DirectoryCatalog.CreateCatalogItemWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DirectoryCatalog"
+        mc:Ignorable="d"
+        Title="CreateCatalogItemWindow" Height="300" Width="500">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Label>Оберіть ім'я файла</Label>
+        <TextBox x:Name="ItemNameTextBox" Width="150"/>
+        <Label>Оберіть тип файла</Label>
+        <ComboBox x:Name="TypeComboBox" SelectedIndex="0"/>
+        <Button x:Name="CreateCatalogItemButton" Margin="0,20,0,0" Click="CreateCatalogItemButton_Click">Створити</Button>
+    </StackPanel>
+</Window>
