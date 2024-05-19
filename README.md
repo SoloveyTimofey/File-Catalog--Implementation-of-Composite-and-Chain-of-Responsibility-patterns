@@ -3,6 +3,6 @@ GUI is developed on WPF platform, but part of WPF doesn't have mush value from a
 because i wasn't interested of creating quality WPF code, but was interested in implementing these patterns
 for modeling file catalog.
 
-In brief, Composite pattern responsible for creating tree structure where Directories are branches, and Files are leaves.
+In brief, Composite pattern is responsible for creating tree structure where Directories are branches, and Files are leaves.
 
-And Chain of Responsibility pattern responsible for traversing each element of the structure to find a match based on the name and file type criteria.
+And Chain of Responsibility pattern is responsible for traversing each element of the structure to find a match based on the name and file type criteria.
