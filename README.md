@@ -1,5 +1,5 @@
 Pattern files are located in DirectoryCatalog/Composite and DirectoryCatalog/ChainOfResponsibility folders.
-GUI is developed on WPF platform, but part of WPF doesn't hae mush value from a code point of view,
+GUI is developed on WPF platform, but part of WPF doesn't have mush value from a code point of view,
 because i wasn't interested of creating quality WPF code, but was interested in implementing these patterns
 for modeling file catalog.
 
